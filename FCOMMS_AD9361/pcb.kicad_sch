@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "feeaf67f-6c8f-49ed-888f-7a3b96f4db61")
+	(paper "A4")
+	(lib_symbols)
+	(text "e8-Layer Board Layer\nFunction Notes\nL1	Top Layer (RF Signals)	RF signal traces (e.g., transmission lines, filters, antennas).\nL2	Ground Plane (GND)	Solid GND for RF signals (return path for L1).\nL3	Power Plane (VDD)	Dedicated power plane for RF circuits.\nL4	Mixed-Signal Routing	Low-frequency signals, control lines.\nL5	Ground Plane (GND)	Solid GND for digital signals and shielding.\nL6	Power Plane (VDD)	Power plane for digital circuits or decoupling purposes.\nL7	Ground Plane (GND)	Solid GND for digital signals and shielding.\nL8	Bottom Layer (Auxiliary Signals)	Additional traces, test points, or debug connectors."
+		(exclude_from_sim yes)
+		(at 25.908 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ae38a52-d87f-411f-976f-99d014f76d6f")
+	)
+)
