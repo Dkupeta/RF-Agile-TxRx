@@ -5,7 +5,7 @@
 	(uuid "de8d4862-1935-48a3-b580-18eb4677cd97")
 	(paper "A4")
 	(lib_symbols
-		(symbol "2.45GHz_Balun:2450BL15B050E"
+		(symbol "Library:2450BL15B050E"
 			(pin_names
 				(offset 0.254)
 			)
@@ -242,7 +242,7 @@
 				)
 			)
 		)
-		(symbol "Device:C"
+		(symbol "Library:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -378,7 +378,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "Library:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -680,7 +680,7 @@
 		(uuid "aae56e24-9a9c-4975-949b-fad5737185cc")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 106.68 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -753,7 +753,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 199.39 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -824,7 +824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "Library:GND")
 		(at 96.52 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -894,7 +894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "2.45GHz_Balun:2450BL15B050E")
+		(lib_id "Library:2450BL15B050E")
 		(at 113.03 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -980,7 +980,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 91.44 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
