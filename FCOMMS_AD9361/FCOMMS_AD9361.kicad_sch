@@ -5,6 +5,313 @@
 	(uuid "2452492c-7eb1-4d8c-9f90-9558314d6e1f")
 	(paper "A3")
 	(lib_symbols)
+	(text "VDD_GPO must rise as fast or faster than the 1.3 V supply domain"
+		(exclude_from_sim no)
+		(at 290.83 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c4ba4e3-1f26-4e60-a530-dc181ad9ff23")
+	)
+	(text "interface in LVDS mode, supply 1.8 V"
+		(exclude_from_sim no)
+		(at 276.352 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7205ebf-0155-4c94-8677-53c9fdb15534")
+	)
+	(label "Vdd_BB"
+		(at 80.01 242.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "146230a8-b630-4b17-b3c9-fc4d2781f520")
+	)
+	(label "Vdd_TX_VCO"
+		(at 62.23 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "290d5ec3-2a65-4123-ad7f-e9fc46860da4")
+	)
+	(label "Vdd_TX_SYNTH"
+		(at 62.23 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d88ce06-253f-4a53-a244-eaeb79fb532b")
+	)
+	(label "Vdd_RX_VCO"
+		(at 62.23 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4045fe92-f9a6-4a4c-b71a-36732a0f19af")
+	)
+	(label "Vdd_GPO"
+		(at 80.01 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5941aa57-aef1-431e-8952-74f878e4b114")
+	)
+	(label "Vdd_DIG"
+		(at 80.01 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62ffbf6a-220d-4439-832c-5f1adde907c5")
+	)
+	(label "Vdd_RX_SYNTH"
+		(at 62.23 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e95d382-6699-4613-bb26-5d1d9a0a64a5")
+	)
+	(label "Vdd_Interface"
+		(at 77.47 274.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "883edd8d-3487-4733-8f59-60f0f1b51c40")
+	)
+	(label "Vdd_TX_LO"
+		(at 203.2 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98cb98a9-74fb-44b6-a1cf-5f86803cdcef")
+	)
+	(label "Vdd_RX_TX"
+		(at 62.23 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9ab02b9-2e5f-4c2b-b27c-108e853eb542")
+	)
+	(label "Vdd_BB"
+		(at 204.47 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0f595ff-b6c8-4363-9f2a-7971facb7fe9")
+	)
+	(label "Vdd_DIG"
+		(at 81.28 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2ea45bc-c043-4815-8680-595f55e350f5")
+	)
+	(label "Vdd_RX_LO"
+		(at 62.23 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d71e3962-180e-4132-96b2-e432622476b9")
+	)
+	(hierarchical_label "Vdd_RX_TX"
+		(shape input)
+		(at 62.23 247.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20c286fe-41bc-4f6f-8194-b5f87930b144")
+	)
+	(hierarchical_label "Vdd_RX_LO"
+		(shape input)
+		(at 62.23 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c6e721a-392f-4272-82e9-d921e315d968")
+	)
+	(hierarchical_label "Vdd_RX_VCO"
+		(shape input)
+		(at 62.23 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40e46f8e-d1cb-46ec-ae01-15f6f0d2eef8")
+	)
+	(hierarchical_label "Vdd_GPO"
+		(shape input)
+		(at 80.01 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "423ccc51-e26c-4e1c-85cd-97aaa184e15a")
+	)
+	(hierarchical_label "Vdd_Interface"
+		(shape input)
+		(at 80.01 222.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a88e338-927b-466d-9428-11d02a63acf1")
+	)
+	(hierarchical_label "Vdd_BB"
+		(shape input)
+		(at 81.28 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69ba56ad-354a-41bc-af0f-857d66e3c051")
+	)
+	(hierarchical_label "Vdd_DIG"
+		(shape input)
+		(at 81.28 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72774aa5-f40e-4d0d-b5ec-8539c56cf21a")
+	)
+	(hierarchical_label "Vdd_TX_LO"
+		(shape input)
+		(at 62.23 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adbe40c6-b941-4a50-87c4-95ee24be7daf")
+	)
+	(hierarchical_label "Vdd_TX_VCO"
+		(shape input)
+		(at 62.23 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b9b4d2f1-b318-4999-8312-af299a0fa44f")
+	)
+	(hierarchical_label "1P3_TX1A"
+		(shape output)
+		(at 80.01 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc76bdf4-3450-4c38-84c5-a182e0e2396b")
+	)
+	(hierarchical_label "Vdd_RX_SYNTH"
+		(shape input)
+		(at 62.23 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2014067-3482-498e-81d9-8f405e03bed6")
+	)
+	(hierarchical_label "Vdd_TX_SYNTH"
+		(shape input)
+		(at 62.23 229.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faa5caba-4b55-433a-a041-abe76ac4e0f9")
+	)
 	(sheet
 		(at 248.92 76.2)
 		(size 72.39 179.07)
@@ -35,6 +342,116 @@
 				(justify left top)
 			)
 		)
+		(pin "Vdd_RX_LO" input
+			(at 248.92 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4993294e-8466-4a43-947f-8268edf8a5e3")
+		)
+		(pin "Vdd_TX_LO" input
+			(at 248.92 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57bdf08b-734b-460b-9229-7aa0eaf86f3b")
+		)
+		(pin "Vdd_RX_VCO" input
+			(at 248.92 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c642e261-c994-4613-aab3-d76a25922cd1")
+		)
+		(pin "Vdd_TX_SYNTH" input
+			(at 248.92 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95f6d05c-1fee-4ae7-866c-f6570c365b07")
+		)
+		(pin "Vdd_TX_VCO" input
+			(at 248.92 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98136f12-c350-48af-a9cf-ba4971ff3874")
+		)
+		(pin "Vdd_RX_SYNTH" input
+			(at 248.92 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2883bbcd-0ae0-4d40-9484-2847ada5d8d1")
+		)
+		(pin "Vdd_Interface" input
+			(at 248.92 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39155847-6e17-440c-9076-1cc29ec7b709")
+		)
+		(pin "Vdd_BB" input
+			(at 248.92 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6f1b770-86a7-40d6-a67b-253787c5acde")
+		)
+		(pin "Vdd_GPO" input
+			(at 248.92 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "503ac81b-cf7c-43a7-8e07-157e6ff57866")
+		)
+		(pin "Vdd_DIG" input
+			(at 248.92 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64cd9e44-0170-42b2-83ab-f58078a23404")
+		)
+		(pin "Vdd_RX_TX" input
+			(at 248.92 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "438cbcc8-77b0-482c-bdf2-b2ada31851e9")
+		)
 		(instances
 			(project "FCOMMS_AD9361"
 				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f"
@@ -44,8 +461,8 @@
 		)
 	)
 	(sheet
-		(at 45.72 68.58)
-		(size 83.82 96.52)
+		(at 127 75.438)
+		(size 56.134 152.908)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -56,7 +473,7 @@
 		)
 		(uuid "dd0d77da-885d-47c3-8c7a-7f7ebb9c153c")
 		(property "Sheetname" "POWER"
-			(at 45.72 67.8684 0)
+			(at 127 74.7264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,13 +482,83 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 45.72 165.6846 0)
+			(at 127 228.9306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "Vin" input
+			(at 127 117.348 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9c4ff07e-0cf9-4d5e-8ff4-94256b9045ff")
+		)
+		(pin "3A" output
+			(at 183.134 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a62ee856-90b3-46a2-bf5a-ad58365fbf25")
+		)
+		(pin "3B" output
+			(at 183.134 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "08641b03-bca2-40e6-8a7f-438b652a19e0")
+		)
+		(pin "Vdd_GPO" output
+			(at 183.134 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d9dbf56c-7ce4-4b5a-9b91-ac5dfad8d758")
+		)
+		(pin "Vdd_Interface" output
+			(at 183.134 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1cc02e2f-296b-440f-a2bd-7e9a9c96d92c")
+		)
+		(pin "PG1" output
+			(at 183.134 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "71d67bc9-4fe0-499b-8476-d43cc98d30e1")
+		)
+		(pin "PG2" output
+			(at 183.134 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cfb26e8e-a83e-451f-97f7-afab66e9c17f")
 		)
 		(instances
 			(project "FCOMMS_AD9361"
@@ -82,7 +569,7 @@
 		)
 	)
 	(sheet
-		(at 157.226 30.734)
+		(at 51.562 25.654)
 		(size 38.608 56.642)
 		(fields_autoplaced yes)
 		(stroke
@@ -94,7 +581,7 @@
 		)
 		(uuid "e0666a63-bf96-42b4-a115-bd6e0dc6677b")
 		(property "Sheetname" "PCB"
-			(at 157.226 30.0224 0)
+			(at 51.562 24.9424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +590,7 @@
 			)
 		)
 		(property "Sheetfile" "pcb.kicad_sch"
-			(at 157.226 87.9606 0)
+			(at 51.562 82.8806 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -596,24 +596,20 @@
       "SMA1"
     ],
     [
-      "fca2539e-0b6d-481f-9c95-dde929f77f3b",
-      "SMA2"
-    ],
-    [
-      "c475cd69-7349-4a39-af73-b87625e7ab09",
-      "SMA3"
+      "5f58fb4b-95ba-4d90-a47a-598d3a917f41",
+      "SAM_TX1"
     ],
     [
       "e0666a63-bf96-42b4-a115-bd6e0dc6677b",
       "PCB"
     ],
     [
-      "e70744ff-5e12-42d5-b005-7a7b25d8a73f",
-      "LDO"
+      "7486fce2-9d34-4b50-bf0b-fecfd9d99bcc",
+      "emi"
     ],
     [
-      "0b230eb3-e59f-4f8f-a192-4646fc18be2f",
-      "LDO1"
+      "cc99f0ff-065b-4b6b-9479-b76de20c4158",
+      "SAM_TX"
     ]
   ],
   "text_variables": {}

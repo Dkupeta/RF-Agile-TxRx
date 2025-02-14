@@ -439,7 +439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c1d6b1-37d3-408a-97cd-536cb2047461")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR0401"
 			(at 82.55 83.82 0)
 			(effects
 				(font
@@ -490,19 +490,11 @@
 		(instances
 			(project "FCOMMS_AD9361"
 				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/a48be371-9b97-47be-a0b7-f960e32a2789"
-					(reference "#PWR0402")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/bedb50d6-ae87-40b1-bc63-18e7d0b25b7c"
 					(reference "#PWR0501")
-					(unit 1)
-				)
-				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/c475cd69-7349-4a39-af73-b87625e7ab09"
-					(reference "#PWR0701")
-					(unit 1)
-				)
-				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/fca2539e-0b6d-481f-9c95-dde929f77f3b"
-					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -518,7 +510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "924cfc02-73ff-414f-9f87-3f5b847f8699")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0402"
 			(at 185.42 83.82 0)
 			(effects
 				(font
@@ -569,19 +561,11 @@
 		(instances
 			(project "FCOMMS_AD9361"
 				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/a48be371-9b97-47be-a0b7-f960e32a2789"
-					(reference "#PWR0101")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/bedb50d6-ae87-40b1-bc63-18e7d0b25b7c"
 					(reference "#PWR0502")
-					(unit 1)
-				)
-				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/c475cd69-7349-4a39-af73-b87625e7ab09"
-					(reference "#PWR0702")
-					(unit 1)
-				)
-				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/fca2539e-0b6d-481f-9c95-dde929f77f3b"
-					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -668,14 +652,6 @@
 				)
 				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/bedb50d6-ae87-40b1-bc63-18e7d0b25b7c"
 					(reference "U501")
-					(unit 1)
-				)
-				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/c475cd69-7349-4a39-af73-b87625e7ab09"
-					(reference "U701")
-					(unit 1)
-				)
-				(path "/2452492c-7eb1-4d8c-9f90-9558314d6e1f/bd28e2d3-ce8a-4bc7-bd9b-639a59f7ce76/fca2539e-0b6d-481f-9c95-dde929f77f3b"
-					(reference "U601")
 					(unit 1)
 				)
 			)

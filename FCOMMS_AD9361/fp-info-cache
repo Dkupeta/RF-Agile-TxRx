@@ -1,4 +1,4 @@
-24828150399253790
+24835100917648910
 8-PowerSOIC
 8-PowerSOIC
 
@@ -57259,6 +57259,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+Crystal
+XTAL_402F4001XIAR
+
+
+0
+4
+4
 Diode_SMD
 BAT54WS-P36_SOD-323F
 Diotec SOD-323F, Diode
@@ -89130,6 +89137,27 @@ Potentiometer vertical vishay
 0
 3
 3
+RF
+2450BL15B050E_JOT
+
+2450BL15B050E 
+0
+6
+6
+RF
+2450BL15B050E_JOT-L
+
+2450BL15B050E 
+0
+6
+6
+RF
+2450BL15B050E_JOT-M
+
+2450BL15B050E 
+0
+6
+6
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
